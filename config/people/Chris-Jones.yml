@@ -1,0 +1,11 @@
+groups:
+    - development
+recipes:
+    mac_os_x:
+        - osxdefaults::set_computer_name
+attributes:
+    osxdefaults:
+        computername: Chris-Jones
+    git:
+        name: Chris Jones
+        email: chris@union.co

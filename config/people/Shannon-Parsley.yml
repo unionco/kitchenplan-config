@@ -1,0 +1,8 @@
+groups:
+    - accounts
+recipes:
+    mac_os_x:
+        - osxdefaults::set_computer_name
+attributes:
+    osxdefaults:
+        computername: Shannon-Parsley

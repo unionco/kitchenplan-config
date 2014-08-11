@@ -1,0 +1,41 @@
+recipes:
+    global:
+        - dotfiles::bash_it
+        - dotfiles::inputrc
+        - dotfiles::gitconfig
+    mac_os_x:
+        - nodejs::default
+        - applications::ssh_config
+        - applications::composer
+        - applications::mysql
+        - applications::php55
+        - applications::sass
+        - applications::rysnc
+attributes:
+    mysql_root_password: "root"
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - wget
+            - git-flow
+            - watch
+            - rsync
+            - bash-completion
+            - composer
+        cask_apps:
+            - imageoptim
+            - imagealpha
+            - sequel-pro
+            - kaleidoscope
+            - handbrake
+            - atom
+    nodejs:
+        apps:
+            - bower
+            - gulp
+            - browser-sync
+            - jshint
+    gems:
+        - sass
+        - bundler
