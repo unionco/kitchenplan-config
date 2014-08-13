@@ -48,50 +48,38 @@ recipes:
         - osxdefaults::finder_disable_the_warning_before_emptying_the_trash
         - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
         - osxdefaults::set_desktop_picture
-        - osxdefaykts::set_computer_name
+#        - osxdefaults::set_computer_name
         - osxdefaults::add_note_to_loginscreen
 
 attributes:
     osxdefaults:
         loginmessage: If found, please call (704) 335-5424
-        computername: name
-        desktop_picture: file
+#        computername: name
+        desktop_picture: http://union.co/assets/img/provision/bg.jpg
     dotfiles:
         project_dir: Projects
     workspace_directory: Projects
     homebrewalt:
         apps:
             - git
-            - heroku
             - nodejs
         cask_apps:
             - google-chrome
             - google-drive
             - vlc
             - firefox
-            - java
             - slack
             - dropbox
             - spotify
             - flux
             - slack
-            - chefdk
             - xtrafinder
             - adobe-creative-cloud
-            - airmail-amt
             - mou
             - invisionsync
-            - hostbuddy
-            - heroku-toolbelt
             - google-hangouts
             - hyperdock
             - hyperswitch
-            - github
+            - caffeine
         cask_fonts:
             - inconsolata
-    authorization:
-        sudo:
-            users:
-                - roderik
-            passwordless: true
-            include_sudoers_d: true

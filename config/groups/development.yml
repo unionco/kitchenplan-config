@@ -10,7 +10,7 @@ recipes:
         - applications::mysql
         - applications::php55
         - applications::sass
-        - applications::rysnc
+        - applications::rsync
 attributes:
     mysql_root_password: "root"
     homebrewalt:
@@ -22,7 +22,6 @@ attributes:
             - watch
             - rsync
             - bash-completion
-            - composer
         cask_apps:
             - imageoptim
             - imagealpha
@@ -30,6 +29,9 @@ attributes:
             - kaleidoscope
             - handbrake
             - atom
+            - github
+            - hostbuddy
+            - heroku-toolbelt
     nodejs:
         apps:
             - bower

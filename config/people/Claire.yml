@@ -6,3 +6,9 @@ recipes:
 attributes:
     osxdefaults:
         computername: Claire-Outlaw
+    authorization:
+        sudo:
+            users:
+                - Claire
+            passwordless: true
+            include_sudoers_d: true
