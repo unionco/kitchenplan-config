@@ -1,0 +1,9 @@
+attributes:
+    homebrewalt:
+        cask_apps:
+            - imageoptim
+            - imagealpha
+            - handbrake
+            - slicy
+            - adobe-creative-cloud
+            - invisionsync

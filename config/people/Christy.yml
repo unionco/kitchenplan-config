@@ -2,13 +2,8 @@ groups:
     - accounts
 recipes:
     mac_os_x:
+        - osxdefaults::disable_natural_scrolling
         - osxdefaults::set_computer_name
 attributes:
     osxdefaults:
         computername: Christy-Dukes
-    authorization:
-        sudo:
-            users:
-                - Christy
-            passwordless: true
-            include_sudoers_d: true

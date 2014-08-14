@@ -3,6 +3,7 @@ recipes:
         - dotfiles::bash_it
         - dotfiles::inputrc
         - dotfiles::gitconfig
+        - dotfiles::gem_setup
     mac_os_x:
         - nodejs::default
         - applications::ssh_config
@@ -11,6 +12,8 @@ recipes:
         - applications::php55
         - applications::sass
         - applications::rsync
+        - applications::sublime_text_3
+        - applications::launchrocket
 attributes:
     mysql_root_password: "root"
     homebrewalt:
@@ -23,15 +26,19 @@ attributes:
             - rsync
             - bash-completion
         cask_apps:
-            - imageoptim
-            - imagealpha
             - sequel-pro
             - kaleidoscope
-            - handbrake
             - atom
             - github
             - hostbuddy
             - heroku-toolbelt
+            - codebug
+            - filezilla
+            - navicat-premium
+            - rcenvironment
+            - vagrant
+            - virtualhostx
+            - iterm2
     nodejs:
         apps:
             - bower
@@ -41,3 +48,7 @@ attributes:
     gems:
         - sass
         - bundler
+    authorization:
+        sudo:
+            passwordless: true
+            include_sudoers_d: true
