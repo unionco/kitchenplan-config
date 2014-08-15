@@ -7,3 +7,4 @@ Cheffile.lock
 .librarian
 Gemfile.lock
 /tmp
+/cookbooks

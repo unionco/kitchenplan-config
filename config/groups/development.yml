@@ -34,7 +34,7 @@ attributes:
             - heroku-toolbelt
             - codebug
             - filezilla
-            - navicat-premium
+            # - navicat-premium
             - rcenvironment
             - vagrant
             - virtualhostx
@@ -48,6 +48,7 @@ attributes:
     gems:
         - sass
         - bundler
+        - librarian-chef
     authorization:
         sudo:
             passwordless: true

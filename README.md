@@ -8,6 +8,8 @@ More information about Kitchenplan and on how to use it can be found in the [Kit
 
 ## Quick Start
 
+Simply run the following command(s):
+
 ```sh
 $ sudo gem install kitchenplan
 $ kitchenplan setup https://github.com/unionco/kitchenplan-config.git
